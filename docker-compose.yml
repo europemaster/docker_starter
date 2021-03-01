@@ -1,0 +1,14 @@
+version: "3"
+services:
+  basic:
+    image: basic_img
+    build: .
+    container_name: basic_site
+    ports: 
+      - 81:80 # open http://localhost:81
+  pro:
+    image: pro_img
+    build: pro/
+    container_name: pro_site
+    ports: 
+      - 80:80 # open http://localhost:81
