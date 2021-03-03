@@ -20,8 +20,10 @@ Two images will be built and two containers spawned. To access basic [go here](h
 
 To stop containers run `docker-compose stop`, to stop and remove run `docker-compose down`.
 
-For every of the above command you can append the specific service, e.g. `docker-compose up -d pro` to run onyl pro page. The name of basic service is `basic`.
+For every one of the above commands you can append the specific service, e.g. `docker-compose up -d pro` to run only pro page. The name of basic service is `basic`.
 
 ## Reference
 
 Pro folder is base from open source [forty](https://html5up.net/forty). License in /pro/license.txt
+
+This project is lincesed under MIT license.
